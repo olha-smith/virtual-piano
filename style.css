@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    background-color: rgb(133,204,196);
+
+}
+
+.container {
+    text-align: center;
+    margin: 15% auto;
+    width: 100%;
+}
+
+    display: inline-block;
+    margin-left: 0;
+}
+
+.black-keys {
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+}
+
+.black-keys kbd{
+    font-size: 20px;
+    background-color: black;
+    border: white outset .6em;
+    color: white;
+    height: 5em;
+    position: absolute;
+    padding-top: 5em;
+    width: 1.8em;
+}
+
+.white-keys kbd{
+    font-size: 32px;
+    background-color: white;
+    border: white outset .5em;
+    height: 2em;
+    padding-top: 8em;
+    vertical-align: bottom;
+    width: 2em;
+}
+
+#keyW {
+    left: 6em;
+}
+
+#keyE {
+    left: 11em;
+}
+
+#keyT {
+    right: 16em;
+}
+
+#keyY {
+    right: 11em;
+}
+
+#keyU {
+    right: 6em;
+}
